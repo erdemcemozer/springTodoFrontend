@@ -16,6 +16,7 @@
     'BlurAdmin.pages.charts',
     'BlurAdmin.pages.maps',
     'BlurAdmin.pages.profile',
+    'BlurAdmin.pages.todoApp'
   ])
       .config(routeConfig);
 
@@ -43,6 +44,7 @@
         blank: true
       }]
     });
+
     baSidebarServiceProvider.addStaticItem({
       title: 'Menu Level 1',
       icon: 'ion-ios-more',
